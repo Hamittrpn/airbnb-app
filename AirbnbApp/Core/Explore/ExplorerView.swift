@@ -2,11 +2,13 @@
 import SwiftUI
 
 struct ExplorerView: View {
+    @State private var isOn = false
+    
     var body: some View {
         NavigationStack{
             ScrollView{
                 SearchAndFilterBar()
-                    .padding(.bottom, 12)
+                TextAndToggle()
 
                 LazyVStack(spacing: 32){
                     ForEach(0 ... 10, id: \.self) { listing in

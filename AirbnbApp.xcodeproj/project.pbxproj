@@ -16,6 +16,8 @@
 		95A55BD82B77BF400044411B /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A55BD72B77BF400044411B /* SearchAndFilterBar.swift */; };
 		95A55BDA2B77CA910044411B /* HexToColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A55BD92B77CA910044411B /* HexToColor.swift */; };
 		95A55BDE2B77FFB50044411B /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A55BDD2B77FFB50044411B /* CircularButton.swift */; };
+		95A55BE12B78229E0044411B /* SymbolToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A55BE02B78229E0044411B /* SymbolToggle.swift */; };
+		95A55BE32B782CC60044411B /* TextAndToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A55BE22B782CC60044411B /* TextAndToggle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		95A55BD72B77BF400044411B /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
 		95A55BD92B77CA910044411B /* HexToColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexToColor.swift; sourceTree = "<group>"; };
 		95A55BDD2B77FFB50044411B /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
+		95A55BE02B78229E0044411B /* SymbolToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolToggle.swift; sourceTree = "<group>"; };
+		95A55BE22B782CC60044411B /* TextAndToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAndToggle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,7 @@
 			children = (
 				95A55BD32B7787FD0044411B /* ExplorerView.swift */,
 				95A55BD72B77BF400044411B /* SearchAndFilterBar.swift */,
+				95A55BE22B782CC60044411B /* TextAndToggle.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 		95A55BDB2B77FF700044411B /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				95A55BDF2B7822860044411B /* Toggle */,
 				95A55BDC2B77FF800044411B /* Button */,
 			);
 			path = Components;
@@ -192,6 +198,14 @@
 				95A55BDD2B77FFB50044411B /* CircularButton.swift */,
 			);
 			path = Button;
+			sourceTree = "<group>";
+		};
+		95A55BDF2B7822860044411B /* Toggle */ = {
+			isa = PBXGroup;
+			children = (
+				95A55BE02B78229E0044411B /* SymbolToggle.swift */,
+			);
+			path = Toggle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +283,9 @@
 				95A55BDA2B77CA910044411B /* HexToColor.swift in Sources */,
 				95A55BBA2B777D870044411B /* AirbnbAppApp.swift in Sources */,
 				95A55BD82B77BF400044411B /* SearchAndFilterBar.swift in Sources */,
+				95A55BE32B782CC60044411B /* TextAndToggle.swift in Sources */,
 				95A55BD42B7787FD0044411B /* ExplorerView.swift in Sources */,
+				95A55BE12B78229E0044411B /* SymbolToggle.swift in Sources */,
 				95A55BDE2B77FFB50044411B /* CircularButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
