@@ -1,9 +1,3 @@
-//
-//  AirbnbAppApp.swift
-//  AirbnbApp
-//
-//  Created by Hamit Tırpan on 10.02.2024.
-//
 
 import SwiftUI
 
