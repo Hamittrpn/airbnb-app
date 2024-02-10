@@ -12,6 +12,7 @@ struct ListingItemView: View {
     
     var body: some View {
         VStack(spacing:8){
+            
             // images
             TabView{
                 ForEach(images, id: \.self) { image in
@@ -65,3 +66,5 @@ struct ListingItemView: View {
 #Preview {
     ListingItemView()
 }
+
+
