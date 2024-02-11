@@ -3,6 +3,8 @@ import SwiftUI
 
 struct ListingImageCarouselView: View {
     
+    var enableSafeAreaPadding : Bool = false
+    
     var images = [
         "listing-1",
         "listing-2",
@@ -25,6 +27,7 @@ struct ListingImageCarouselView: View {
                 .frame(width: 24, height: 24)
                 .foregroundStyle(.red)
                 .padding(.all, 20)
+                .safeAreaPadding(.top, enableSafeAreaPadding ? 40 : 0)
         }
     }
 }

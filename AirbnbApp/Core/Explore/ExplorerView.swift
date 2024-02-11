@@ -22,7 +22,7 @@ struct ExplorerView: View {
                     }
                     .padding(.horizontal, 16)
                 }.navigationDestination(for: Int.self) { listing in
-                    Text("Detail View")
+                    ListingDetailView()
                 }
             }
             .background(Color(hex: 0xF2F2F2))
