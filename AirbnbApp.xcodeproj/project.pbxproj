@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9528A3332B78D1E500824859 /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9528A3322B78D1E500824859 /* ListingDetailView.swift */; };
+		9528A3352B78D28700824859 /* ListingImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9528A3342B78D28700824859 /* ListingImageCarouselView.swift */; };
 		95A55BBA2B777D870044411B /* AirbnbAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A55BB92B777D870044411B /* AirbnbAppApp.swift */; };
 		95A55BBC2B777D870044411B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A55BBB2B777D870044411B /* ContentView.swift */; };
 		95A55BBE2B777D870044411B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A55BBD2B777D870044411B /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9528A3322B78D1E500824859 /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
+		9528A3342B78D28700824859 /* ListingImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCarouselView.swift; sourceTree = "<group>"; };
 		95A55BB62B777D870044411B /* AirbnbApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirbnbApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95A55BB92B777D870044411B /* AirbnbAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbAppApp.swift; sourceTree = "<group>"; };
 		95A55BBB2B777D870044411B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -151,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				95A55BD52B778B040044411B /* ListingItemView.swift */,
+				9528A3322B78D1E500824859 /* ListingDetailView.swift */,
 			);
 			path = Listings;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 			children = (
 				95A55BDF2B7822860044411B /* Toggle */,
 				95A55BDC2B77FF800044411B /* Button */,
+				9528A3342B78D28700824859 /* ListingImageCarouselView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -279,7 +285,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				95A55BBC2B777D870044411B /* ContentView.swift in Sources */,
+				9528A3352B78D28700824859 /* ListingImageCarouselView.swift in Sources */,
 				95A55BD62B778B040044411B /* ListingItemView.swift in Sources */,
+				9528A3332B78D1E500824859 /* ListingDetailView.swift in Sources */,
 				95A55BDA2B77CA910044411B /* HexToColor.swift in Sources */,
 				95A55BBA2B777D870044411B /* AirbnbAppApp.swift in Sources */,
 				95A55BD82B77BF400044411B /* SearchAndFilterBar.swift in Sources */,
