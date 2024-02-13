@@ -27,11 +27,8 @@ struct ListingImageCarouselView: View {
                 .frame(width: 24, height: 24)
                 .foregroundStyle(.red)
                 .padding(.all, 20)
-                .safeAreaPadding(.top, enableSafeAreaPadding ? 40 : 0)
+                //.safeAreaPadding(.top, enableSafeAreaPadding ? 40 : 0)
         }
     }
 }
 
-#Preview {
-    ListingImageCarouselView()
-}

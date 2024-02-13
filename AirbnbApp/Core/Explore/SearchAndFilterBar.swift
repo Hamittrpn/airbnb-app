@@ -32,7 +32,3 @@ struct SearchAndFilterBar: View {
         .background(Color(hex: 0xF2F2F2))
     }
 }
-
-#Preview {
-    SearchAndFilterBar()
-}

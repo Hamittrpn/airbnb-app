@@ -13,7 +13,7 @@ struct CircleButton: View {
         }.background(
             Capsule()
                 .fill(Color(hex: 0xF2F2F2))
-                .stroke(.gray, lineWidth: 0.5)
+                //.stroke(.gray, lineWidth: 0.5)
                 .frame(width: 40, height: 40)
         )
 

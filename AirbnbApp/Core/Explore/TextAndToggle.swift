@@ -12,7 +12,3 @@ struct TextAndToggle: View {
             .toggleStyle(SymbolToggleStyle(activeColor: .black, enableBorder: true))
     }
 }
-
-#Preview {
-    TextAndToggle()
-}

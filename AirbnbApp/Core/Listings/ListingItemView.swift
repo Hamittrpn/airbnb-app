@@ -40,9 +40,3 @@ struct ListingItemView: View {
         }
     }
 }
-
-#Preview {
-    ListingItemView()
-}
-
-

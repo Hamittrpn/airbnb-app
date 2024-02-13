@@ -94,7 +94,7 @@
 			isa = PBXGroup;
 			children = (
 			);
-			path = Models;
+			name = Models;
 			sourceTree = "<group>";
 		};
 		95A55BC82B7784C00044411B /* Extensions */ = {
@@ -124,21 +124,21 @@
 			isa = PBXGroup;
 			children = (
 			);
-			path = App;
+			name = App;
 			sourceTree = "<group>";
 		};
 		95A55BCB2B7784C90044411B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Utils;
+			name = Utils;
 			sourceTree = "<group>";
 		};
 		95A55BCC2B7785370044411B /* MapView */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = MapView;
+			name = MapView;
 			sourceTree = "<group>";
 		};
 		95A55BCD2B77853A0044411B /* Explore */ = {
@@ -164,28 +164,28 @@
 			isa = PBXGroup;
 			children = (
 			);
-			path = Profile;
+			name = Profile;
 			sourceTree = "<group>";
 		};
 		95A55BD02B7785600044411B /* Root */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Root;
+			name = Root;
 			sourceTree = "<group>";
 		};
 		95A55BD12B77856E0044411B /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = TabBar;
+			name = TabBar;
 			sourceTree = "<group>";
 		};
 		95A55BD22B7785770044411B /* Wishlists */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Wishlists;
+			name = Wishlists;
 			sourceTree = "<group>";
 		};
 		95A55BDB2B77FF700044411B /* Components */ = {
@@ -425,9 +425,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AirbnbApp/Preview Content\"";
+				DEVELOPMENT_TEAM = YE333T4WMK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -435,6 +437,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,6 +445,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hamittrpn.AirbnbApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -453,9 +457,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AirbnbApp/Preview Content\"";
+				DEVELOPMENT_TEAM = YE333T4WMK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -463,6 +469,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,6 +477,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hamittrpn.AirbnbApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

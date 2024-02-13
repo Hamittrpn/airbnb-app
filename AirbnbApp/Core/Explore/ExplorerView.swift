@@ -30,6 +30,3 @@ struct ExplorerView: View {
     }
 }
 
-#Preview {
-    ExplorerView()
-}
